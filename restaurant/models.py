@@ -23,4 +23,4 @@ class Menu(models.Model):
         db_table = 'menu'
         
     def __str__(self):
-        return f"Menu {self.id} - {self.name}"
+        return f'{self.name} : {str(self.price)}'
